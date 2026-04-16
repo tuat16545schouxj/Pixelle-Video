@@ -77,12 +77,12 @@ where = ["src"]
 include = ["pixelle_video*"]
 
 [tool.black]
-line-length = 120
+line-length = 88  # personal preference: use black's default instead of 120
 target-version = ["py310", "py311"]
 
 [tool.isort]
 profile = "black"
-line_length = 120
+line_length = 88  # keep in sync with black
 
 [tool.mypy]
 python_version = "3.10"
